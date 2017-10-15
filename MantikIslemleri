@@ -1,0 +1,53 @@
+package mantikislemleri;
+
+import java.util.Scanner;
+
+
+
+        
+public class MantikIslemleri {
+
+       
+    public static void main(String[] args) {
+      Scanner sayilar = new Scanner (System.in);
+        System.out.print("İlk sayıyı giriniz:");
+            int birinciSayi = sayilar.nextInt();
+        System.out.print("İkinci sayıyı giriniz:");
+            int ikinciSayi = sayilar.nextInt ();
+        
+        
+            if (birinciSayi==ikinciSayi) {
+                
+                System.out.println("Bu Sayilar Esittir.");
+                System.out.println("Bu sayılar farklı değildir.");
+                
+            }
+               
+            else if (birinciSayi>ikinciSayi) {
+                System.out.println("Birinci sayı, ikinci sayıdan büyüktür.");
+                System.out.println("İkinci sayı, birinci sayıdan küçüktür.");
+                System.out.println("İlk sayı küçük değildir.");
+                
+    }
+            else  if (birinciSayi<ikinciSayi) {
+            
+                 System.out.println("Birinci sayı, ikinci sayıdan küçüktür.");
+                 System.out.println("İkinci sayı, birinci sayıdan büyüktür.");
+                 System.out.println("İkinci sayı küçük değildir.");
+                 
+    
+                           
+            }
+                }
+                    
+                    
+                    
+            
+                    
+            
+                
+                      
+                
+                
+            
+        }
