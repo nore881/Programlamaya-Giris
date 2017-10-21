@@ -1,0 +1,31 @@
+package fibonacciserisi;
+
+import java.util.Scanner;
+
+
+public class fibonacciserisi {
+
+   
+    public static void main(String[] args) {
+            
+            int a = 1;
+            int b = 1;
+            int c;
+            int n;
+               
+            Scanner adet = new Scanner (System.in);
+                System.out.print("Bir sayı giriniz:");
+                    n = adet.nextInt();
+            
+                System.out.print("1 1 ");
+                
+            for (int i = 0; i<n-2; i++) {
+                c=a+b;
+                a=b;
+                b=c;
+                    System.out.print(c+" ");
+            }
+            
+    }
+    
+}
